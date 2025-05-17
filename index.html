@@ -1,10 +1,95 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Mon site GitHub</title>
-  </head>
-  <body>
-    <h1>Bienvenue sur mon site !</h1>
-    <p>Créé avec GitHub Pages.</p>
-  </body>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ma Chaîne YouTube</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+
+    .banner {
+      background: url("banniere.jpg") center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .banner h1 {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      font-size: 3em;
+      border-radius: 10px;
+    }
+
+    .content {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .description {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .button {
+      background-color: #FF0000;
+      padding: 15px 25px;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #cc0000;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="banner">
+    <h1>Aubinclem</h1>
+  </div>
+
+  <div class="content">
+    <p class="description">
+      Bienvenue sur ma chaîne YouTube ! Je crée des vidéos sur [thème de la chaîne] chaque semaine. Abonne-toi pour ne rien rater !
+    </p>
+
+    <div class="buttons">
+      <a class="button" href="https://www.youtube.com/@aubinclem" target="_blank">S'abonner</a>
+      <a class="button" href="https://www.youtube.com/watch?v=video1" target="_blank">Dernière vidéo</a>
+      <a class="button" href="https://www.youtube.com/playlist?list=PLxxx" target="_blank">Playlist Populaire</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2025 Ta Chaîne YouTube - Tous droits réservés
+  </div>
+
+</body>
 </html>
